@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    background-color: darkkhaki;
+  }
+  
+  .item {
+    height: 100px;
+    width: 100px; /* A fixed width as the default */
+    background-color: darkmagenta;
+  }
+  
+  .item-center { 
+    flex-grow: 1; /* Set the middle element to grow and stretch */
+  }
+  
+  .item + .item { 
+    margin-left: 2%; 
+  }
+
+  body {
+      background-color: darkturquoise;
+  }
